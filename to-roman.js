@@ -31,6 +31,14 @@ function toRoman(n) {
             return ''
         }
 
+        if (numero === 4000) {
+            let rep = numero / decimal
+            while (rep > 0) {
+                numeroRomano = numeroRomano + romanos[decimal]
+                rep--
+            }
+            return numeroRomano
+        }
 
         if (numero === decimal) {
             numeroRomano = romanos[decimal]
