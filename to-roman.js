@@ -57,7 +57,6 @@ function toRoman(n) {
             return numeroRomano
         }
 
-        //resolver 20
         if (numero < (decimal * 5) - decimal) {
             numero = ((decimal * numero) / decimal) / decimal
             while (numero > 0) {
@@ -93,3 +92,5 @@ function toRoman(n) {
 
     return numeroRomano
 }
+
+
